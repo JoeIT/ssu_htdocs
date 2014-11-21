@@ -1,0 +1,70 @@
+body {
+    /*background: #e0e0e0; */
+	font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #e7eaec;
+	font-size: 13px;
+	color: #676a6c;
+}
+
+   .error-message {
+       color: red;
+   }
+
+.css-content{
+    clear: both;
+    position: relative;
+    width: 100%;
+}
+
+.css-details_section, .css-data_subsection{
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.css-details_section{
+    background: white;
+    float: left;
+    width: auto;
+    padding: 5px;
+    border: 2px solid #a0a0a0;
+}
+
+.css-data_section{
+    background: #e7eaec;
+    float: left;
+    padding: 5px;
+    width: 70%; /* Temporal attribute */
+    /*border: 2px solid #a0a0a0;*/
+}
+
+.css-data_subsection{
+    background: white;
+    border-top: solid #a0a0a0;
+    margin-bottom: 15px;
+}
+
+.css-date_area{
+    width: auto;
+}
+
+h2 a, h2{
+    color: #6666FF;
+    padding: 5px;
+}
+
+label {
+    color: #003366;
+}
+
+table th{
+    background-color: #003366;
+    color: white;
+}
+
+table td {
+    padding: 2px;
+}
+
+table tr:nth-child(even) {
+    background-color: #E0E0E0;
+}
