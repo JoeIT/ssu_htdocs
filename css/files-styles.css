@@ -47,6 +47,11 @@ body {
     width: auto;
 }
 
+.css-title_section{
+    cursor: pointer;
+    cursor: hand;
+}
+
 h2 a, h2{
     color: #6666FF;
     padding: 5px;
