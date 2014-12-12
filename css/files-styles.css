@@ -6,22 +6,23 @@ body {
 	color: #676a6c;
 }
 
-   .error-message {
-       color: red;
-   }
+.error-message {
+    color: red;
+    font-size: smaller;
+}
 
-.css-content{
+.css-content {
     clear: both;
     position: relative;
     width: 100%;
 }
 
-.css-details_section, .css-data_subsection{
+.css-details_section, .css-data_subsection {
     -moz-border-radius: 10px;
     border-radius: 10px;
 }
 
-.css-details_section{
+.css-details_section {
     background: white;
     float: left;
     width: auto;
@@ -29,7 +30,7 @@ body {
     border: 2px solid #a0a0a0;
 }
 
-.css-data_section{
+.css-data_section {
     background: #e7eaec;
     float: left;
     padding: 5px;
@@ -37,22 +38,22 @@ body {
     /*border: 2px solid #a0a0a0;*/
 }
 
-.css-data_subsection{
+.css-data_subsection {
     background: white;
     border-top: solid #a0a0a0;
     margin-bottom: 15px;
 }
 
-.css-date_area{
+.css-date_area {
     width: auto;
 }
 
-.css-title_section{
+.css-title_section {
     cursor: pointer;
     cursor: hand;
 }
 
-h2 a, h2{
+h2 a, h2 {
     color: #6666FF;
     padding: 5px;
 }
@@ -61,15 +62,40 @@ label {
     color: #003366;
 }
 
-table th{
+/* TABLE */
+.css-index_table th {
     background-color: #003366;
     color: white;
 }
 
-table td {
+.css-index_table tr:nth-child(even) {
+    background-color: #E0E0E0;
+}
+
+.css-index_table tr:hover {
+    background-color: #CDECFF;
+}
+
+.css-index_table td {
+    padding: 3px;
+}
+
+.css-view_table {
     padding: 2px;
 }
 
-table tr:nth-child(even) {
-    background-color: #E0E0E0;
+.css-view_table th {
+    color: #003366;
+    text-align: left;
+}
+
+.css-view_table td {
+    font-size: small;
+}
+
+/* IMAGE */
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
