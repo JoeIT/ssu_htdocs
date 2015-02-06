@@ -17,7 +17,7 @@ body {
     width: 100%;
 }
 
-.css-details_section, .css-data_subsection {
+.css-details_section, .css-data_menu, .css-data_subsection, .css-title_section {
     -moz-border-radius: 10px;
     border-radius: 10px;
 }
@@ -38,33 +38,146 @@ body {
     /*border: 2px solid #a0a0a0;*/
 }
 
+.css-data_menu {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background: coral;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-style: dashed;
+}
+
 .css-data_subsection {
     background: white;
     border-top: solid #a0a0a0;
     margin-bottom: 15px;
+    padding: 5px;
 }
 
 .css-date_area {
     width: auto;
 }
 
-.css-title_section {
-    cursor: pointer;
-    cursor: hand;
+.css-date_area option {
+    font-size: 11px;
+}
+
+.css-panel_to_toggle {
+    padding: 10px;
 }
 
 h2 a, h2 {
-    color: #6666FF;
+    /*color: #6666FF;*/
     padding: 5px;
+}
+
+hr {
+    border-width: 3px;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    color: black;
+}
+
+.css-button_div {
+}
+
+.css-title_section {
+    margin-right: auto;
+    cursor: pointer;
+    cursor: hand;
+    color: black;
+}
+
+.css-title_section_records {
+    background-color: red;
+}
+
+.css-title_section_jobs {
+    background-color: orange;
+}
+
+.css-title_section_courses {
+    background-color: yellow;
+}
+
+.css-title_section_contracts {
+    background-color: lawngreen;
+}
+
+.css-title_section_statements {
+    background-color: cornflowerblue;
+}
+
+.css-title_section_others {
+    background-color: blueviolet;
+}
+
+/*
+.css-title_section_vacations {
+    background-color: cornflowerblue;
+}
+
+.css-title_section_memos {
+    background-color: blueviolet;
+}*/
+
+.css-action_button {
+    /*float: right;*/
+    background-color: #1d6cb0;
+    background-image: linear-gradient(to bottom, #2384d3, #15497c);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-image: none;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 0;
+    padding: 4px 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.css-mini_action_button {
+    font-size: 10px;
+    line-height: 12px;
+    padding: 2px 6px;
+}
+
+.css-delete_button {
+    background-color: red;
+    background-image: linear-gradient(to bottom, indianred, darkred);
+    background-repeat: repeat-x;
+}
+
+.css-action_button:hover {
+    color: lime;
+    text-decoration: none;
 }
 
 label {
     color: #003366;
 }
 
+.css-index_table {
+    width: 100%;
+}
+
 /* TABLE */
 .css-index_table th {
-    background-color: #003366;
+    background-color: #0057AF;
     color: white;
 }
 
@@ -78,6 +191,13 @@ label {
 
 .css-index_table td {
     padding: 3px;
+}
+
+.css-td_perfect_fit {
+    /*text-align:center;
+    vertical-align:middle;*/
+    width:1%;
+    white-space:nowrap;
 }
 
 .css-view_table {
