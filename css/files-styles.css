@@ -214,11 +214,10 @@ label {
 }
 
 .css-file_chooser {
-
 }
 
 /* IMAGE */
-img.center {
+.css-img_center {
     display: block;
     margin-left: auto;
     margin-right: auto;
